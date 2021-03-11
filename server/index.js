@@ -38,7 +38,7 @@ app.use(express.static('public'));
 
 const PORT = process.env.PORT || 4000;
 mongoose.connect(
-      process.env.mongoURI || "mongodb+srv://library:library123@cluster0.9ip5t.mongodb.net/king-queen?retryWrites=true&w=majority",
+      process.env.mongoURI,
       {
           useUnifiedTopology: true,
           useNewUrlParser: true,
