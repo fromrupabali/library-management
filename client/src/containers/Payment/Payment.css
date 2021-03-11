@@ -1,0 +1,25 @@
+.Payment{
+    padding-top: 150px;
+    text-align: center;
+}
+.Payment p{
+    font-size: 20px;
+}
+.Payment span{
+    font-size: 50px;
+    color: orangered;
+}
+.payment-button{
+    padding: 10px 80px;
+    border: none;
+    background: orangered;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.payment-button:hover{
+    background: rgb(212, 60, 5);
+}

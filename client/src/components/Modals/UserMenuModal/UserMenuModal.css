@@ -1,0 +1,29 @@
+.UserMenuModal {
+    position: fixed;
+    z-index: 700;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media (max-width: 800px){
+    .UserMenuModal {
+        width: 100%;
+        height: 100vh;
+        left: calc(0);
+        border-radius: 0px;
+    }
+}
+/* Mobile Only */
+@media (min-width: 800px){
+    .UserMenuModal{
+        top:56px;
+        width: 350px;
+        height: 40vh;
+        left: calc(67%);
+        border-radius: 5px;
+        box-shadow: 2px 2px 8px 0px #a8a6a688;
+    }
+}

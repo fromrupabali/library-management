@@ -1,0 +1,34 @@
+.SignInContainer{
+    width: 100%;
+    height:auto;
+    text-align: center;
+}
+.SignInContainer input{
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    border: 2px solid rgb(218, 216, 216);
+    border-radius: 5px;
+    outline: none;
+}
+.signin-button{
+    padding: 12px 50px;
+    border: none;
+    background: orangered;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.signin-button:hover{
+    background: rgb(212, 59, 3);
+}
+.signin-button-google{
+    padding: 10px 50px;
+    background: white;
+    color: orangered;
+    border: 2px solid rgb(218, 216, 216);
+    cursor: pointer;
+    border-radius: 5px;
+}

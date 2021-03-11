@@ -1,0 +1,74 @@
+.self-category{
+    width: 25%;
+    height: 92vh;
+    background: white;
+    position: fixed;
+    border-right: 1px solid rgb(235, 232, 232);
+    box-shadow:1px 1px 5px 0px rgb(228, 227, 227);
+}
+.categoryList{
+    text-align: center;
+    padding: 0;
+}
+.categoryList li{
+    background: rgb(241, 240, 240);
+    margin: 10px;
+    list-style: none;
+    padding: 10px 0;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.categoryList li:hover{
+    background: rgb(233, 231, 231);
+}
+.categoryList a{
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    padding: 4px 36%;
+}
+.category-books{
+    width: 70%;
+    height:auto;
+    float: right;
+    margin-right: 3%;
+    padding: 30px 0 0 0;
+    display: flex;
+    flex-flow: wrap;
+}
+.mobile-catlist{
+  display: none;
+}
+@media(max-width:800px){
+    .self-category{
+        display: none;
+    }
+    .category-books{
+        width: 90%;
+        margin-left: 7%;
+        margin-right: 0;
+        padding: 20px 0 0 0;
+    }
+    .mobile-catlist{
+        width: 92%;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        padding: 10px 0 0 8%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    .categoryList li{
+       list-style: none;
+       margin: 0 5px;
+       border-radius: 25px;
+       display: inline-block;
+    }
+    .categoryList a{
+        padding: 4px 50px;
+    }
+}

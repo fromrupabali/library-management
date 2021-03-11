@@ -1,0 +1,84 @@
+.AdminView{
+    width: 86.4%;
+    height: auto;
+    margin: 20px 0 0 8%;
+    display: flex;
+    flex-flow: wrap;
+}
+.add-new-book-button{
+    float: right;
+    margin: 0 10px;
+    padding:10px 15px;
+    cursor: pointer;
+    border: none;
+    background: orangered;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+}
+.Book-submit-button, .admin-login-button{
+    margin: 20px 10px;
+    padding:10px 30px;
+    cursor: pointer;
+    border: none;
+    background: orangered;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+}
+.add-new-book-button:hover, .Book-submit-button:hover, .admin-login-button:hover{
+    background: rgb(218, 62, 5);
+    cursor: pointer;
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+}
+.admin-logout-button{
+    margin: 0 10px;
+    padding:15px 30px;
+}
+.input-filed{
+    padding: 10px;
+    width: 250px;
+    margin: 10px 0;
+}
+
+.Admin h5{
+    margin: 15px 0 5px 0;
+    padding: 0;
+}
+.Admin input[type="file"]{
+    width:50%;
+    padding:5px;
+    border:1px solid #eee;
+}
+.Select-categories{
+    width:50%;
+    padding:5px;
+    border:1px solid #eee;
+}
+.book-del-cancel-button{
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.book-del-cancel-button:hover{
+    background: rgb(207, 206, 206);
+}
+.book-del-button{
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid rgb(245, 4, 4);
+    border-radius: 5px;
+    background: rgb(245, 4, 4);
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.book-del-button:hover{
+    background: rgb(212, 6, 6);
+}

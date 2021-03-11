@@ -1,0 +1,29 @@
+.UpdateBookModal {
+    position: fixed;
+    z-index: 700;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+  
+}
+
+@media (max-width: 800px){
+    .UpdateBookModal {
+        width: 100%;
+        height: 100vh;
+        left: calc(0);
+        border-radius: 0px;
+    }
+}
+/* Mobile Only */
+@media (min-width: 800px){
+    .UpdateBookModal{
+        top:56px;
+        width: 550px;
+        height: 85vh;
+        left: calc(29.5%);
+        border-radius: 10px;
+        box-shadow: 2px 2px 8px 0px #a8a6a688;
+    }
+}

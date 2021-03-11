@@ -1,0 +1,73 @@
+.NavLeft{
+    width: 56%;
+    height: 70%;
+    float: left;
+    margin: 10px 0 0 8%;
+}
+.NavRight{
+    width: 25%;
+    height: 70%;
+    float: right;
+    margin: 10px 7% 0 0;
+}
+.NavRight a{
+    float: right;
+    padding: 10px 20px;
+    margin: 0 0 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.NavRight button{
+    float: right;
+    padding: 10px 12px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    margin: 3px 0;
+    cursor: pointer;
+    background: orangered;
+    color: white;
+}
+.signup-link{
+    background: orangered;
+    color: white;
+    font-weight: bold;
+}
+.signup-link:hover{
+    background: rgb(236, 65, 3);
+}
+.signin-link{
+    font-weight: bold;
+    color: orangered;
+}
+.seacrhBox{
+    width: 90%;
+    padding: 10px 2%;
+    font-size: 17px;
+    font: inherit;
+    border: none;
+    background: #EEF3F8;
+    outline: none;
+    border-radius: 5px;
+}
+.menu-link{
+    height: 50px;
+}
+.menu-link a{
+    text-decoration: none;
+    background: orangered;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+.menu-link a:hover{
+    background: rgb(212, 59, 3);
+}
+@media(max-width: 1000px){
+    .logo-text{
+        display: none;
+    }
+    .Dekstop-nav{
+        display: none;
+    }
+}

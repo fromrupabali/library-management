@@ -1,0 +1,23 @@
+.user-review{
+    width: 96%;
+    padding:2%;
+    height: auto;
+    background: #F0F2F5;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.user-review h5{
+   margin: 3px 5px;
+   padding: 0;
+}
+.user-review p{
+    margin: 5px;
+    padding: 0;
+}
+.review-buttons button{
+    margin: 3px;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}

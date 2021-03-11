@@ -1,0 +1,27 @@
+.BooksCollection{
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+.collection-see-more-button{
+    float: right;
+    padding: 10px 20px;
+    border: none;
+    background: orangered;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.collection-see-more-button:hover{
+    background: rgb(233, 65, 4);
+}
+.BooksContainer{
+    width: 101%;
+    height: auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}

@@ -1,0 +1,12 @@
+.library-search{
+    width: 85%;
+    height: auto;
+    margin: 0 0 0 8%;
+    padding: 70px 0 20px 0;
+}
+.all-search-books{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+
+}
